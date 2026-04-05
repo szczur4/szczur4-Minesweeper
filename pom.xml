@@ -4,13 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>szczur4</groupId>
-    <artifactId>Minesweeper</artifactId>
-    <version>v2.0r</version>
+    <artifactId>szczur4-Minesweeper</artifactId>
+    <version>v3.0r</version>
     <dependencies>
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.13.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.2.12.Final</version>
         </dependency>
     </dependencies>
     <build>

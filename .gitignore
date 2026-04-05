@@ -3,6 +3,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 world/
+logs/
+.lock
 
 ### IntelliJ IDEA ###
 .idea/

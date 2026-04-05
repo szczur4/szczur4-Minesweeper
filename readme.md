@@ -14,8 +14,10 @@ ___
 ### List of features
 - Infinite playing field[^1]
 - Automatic flag checking and tile uncovering
+- Multiplayer
+- LAN search
 - World saving
-- Tile uncovering animation
+- ~~Tile uncovering animation~~
 - Coordinate display
 - Zoom
 - Stats
@@ -23,7 +25,13 @@ ___
 - Lost chunks unlocking
 ___
 # Changelog
-## Version 2.1 (latest)
+## Version 3.0 (latest)
+### Changes
+- Added multiplayer
+- Added searching for games in LAN
+- Temporarily removed animations for being too problematic
+---
+## Version 2.1
 ### Changes
 - You can now toggle automatic tile uncovering and texture changes when placing a flag
 - Added stats
@@ -60,7 +68,7 @@ ___
 - Reworked textures
   - Textures are now 16 × 16 instead of 10 × 10
   - Added a texture for edges of uncovered zones
-- Changed from Intellij compiler to Maven
+- Changed from IntelliJ compiler to Maven
 - Added the thing that you are reading now
 [^1]:### **2<sup>73</sup> x 2<sup>73</sup> tiles**
 ___
@@ -93,33 +101,41 @@ ___
 ### Lista zawartości
 - Nieskończony obszar gry[^1]
 - Automatyczne sprawdzanie flag i odkrywanie płytek
+- Tryb wieloosobowy
+- Wyszukiwanie w sieci LAN
 - Zapisywanie świata
-- Animacja odkrywania płytek
+- ~~Animacja odkrywania płytek~~
 - Wyświetlanie koordynatów
 - Przybliżanie
 - Statystyki
-- Czyszczenie chunków
-- Odblokowywanie straconych chunków
+- Czyszczenie kawałków
+- Odblokowywanie straconych kawałków
 ___
 # Lista zmian
-## Wersja 2.1 (najnowsza)
+## Wersja 3.0 (najnowsza)
 ### Zmiany
-- Można przełączyć automatyczne odkrywanie płytek oraz zmiany tekstur przy staiwaniu flagi
+- Dodano tryb wieloosobowy
+- Dodano wyszukiwanie gier w sieci LAN
+- Tymczasowo usunięto animacje za bycie zbyt problematycznymi
+---
+## Wersja 2.1
+### Zmiany
+- Można przełączyć automatyczne odkrywanie płytek oraz zmiany tekstur przy stawianiu flagi
 - Dodano statystyki
   - `Flagi` - mówi Ci ile masz flag
-  - `Wyczyszczone` - liczy iile chunków zostało wyczyszczonych
-  - `Stracone` - liczy ile razy chunki zostały stracone
-- Dodano czyszczenie chunków
-  - Chunk jest uważany za "wyczyszczony" gdy wszystkie flagi są postawione prawidłowo
-  - Po czyszczeniu ilość flag z tego chunka jest dodawana to statystyki `Flagi`
-- Wyczyszczone i stracone chunki się ładują poprawnie
-- Można odblokowywać chunki za `Flagi`
+  - `Wyczyszczone` - liczy ile kawałków zostało wyczyszczonych
+  - `Stracone` - liczy ile razy kawałki zostały stracone
+- Dodano czyszczenie kawałków
+  - Kawałek jest uważany za "wyczyszczony" gdy wszystkie flagi są postawione prawidłowo
+  - Po czyszczeniu ilość flag z tego kawałka jest dodawana to statystyki `Flagi`
+- Wyczyszczone i stracone kawałki się ładują poprawnie
+- Można odblokowywać kawałki za `Flagi`
 - Dodano polskie tłumaczenie dla listy zmian
 ___
 ## Wersja 2.0
 ### Zmiany
 - Przepisano silnik gry
-  - Zmieniono strukturę świata (regiony > chunki > płytki)
+  - Zmieniono strukturę świata (regiony > kawałki > płytki)
   - Obszar gry jest teraz efektywnie nieskończony[^1]
     - Usunięto obszary wejściowe `Szerokość`, `Wysokość` i `Miny`, ponieważ są już niepotrzebne
 - Przepisano renderer
@@ -139,7 +155,7 @@ ___
 - Przerobiono tekstury
   - Tekstury są teraz 16 × 16 zamiast 10 × 10
   - Dodano teksturę dla brzegów odkrytych obszarów
-- Zmieniono kompilator Intellij na Maven
+- Zmieniono kompilator IntelliJ na Maven
 - Dodano to, co teraz czytasz
 ___
 ## Wersja 1.0
