@@ -5,6 +5,13 @@
 #### En_us
 #### This is my take at making a minesweeper game
 ___
+## Installation
+### Arch-based systems:
+Install from AUR with ```yay -S szczur4-minesweeper```
+### Other systems:
+1. Install `Java 25`. I recommend [Azul Zulu](https://www.azul.com/downloads/??version=java-25-lts&package=jdk#zulu)
+2. Go to the [Releases](https://github.com/szczur4/szczur4-Minesweeper/releases) tab on GitHub and download the version you want
+---
 ### Controls
 - Drag your mouse to move
 - Scroll to zoom
@@ -92,6 +99,13 @@ ___
 #### Pl_pl
 #### Moja próba zrobienia gry sapera
 ___
+## Instalowanie
+### Systemy bazowane na Arch:
+Zainstaluj z AUR używając ```yay -S szczur4-minesweeper```
+### Inne systemy:
+1. Zainstaluj `Java 25`. Polecam [Azul Zulu](https://www.azul.com/downloads/??version=java-25-lts&package=jdk#zulu)
+2. Przejdź do zakładki [Wydania](https://github.com/szczur4/szczur4-Minesweeper/releases) na GitHub i pobierz wersję, którą chcesz
+---
 ### Sterowanie
 - Przeciągnij myszką, aby się przemieścić
 - Pokręć kółkiem, aby przybliżyć/oddalić
